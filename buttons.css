@@ -1,0 +1,18 @@
+.previous {
+    position: fixed;
+        bottom:6vh;
+        right:2.5vw; 
+        width:5vw;
+        height: 4vh;
+    }
+    
+    .next {
+    
+    position: fixed;
+        bottom:12vh;
+        right: -0.5vw; 
+        width: 4vw;
+        height: 4vh;
+    }
+    
+    

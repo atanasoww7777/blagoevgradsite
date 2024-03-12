@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/LOGO_PGMEE_1_nov.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Талантите на ПГМЕЕ</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    } 
+        body{
+        background-image: url("images/2021.jpg");
+        background-position:top;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: "Philosopher", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        background-color: #011422;
+        }
+       main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: -5vh;
+       
+       }
+        section{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:center;
+        margin: -3vh 3vw 3vh;
+    }
+      
+        h3{
+            font-size: 1.5vw;
+            font-weight: 700;
+            text-align: center;
+            background-image: linear-gradient(to right, #002043, #001C2C);
+      -webkit-background-clip: text; /* for Safari */
+      background-clip: text;
+      color: transparent; /* Make the text transparent so that the gradient shows through */ 
+        }
+       
+         h3:hover {
+            transition: transform 0.5s ease; /* Define the property to animate and its duration */
+            background-image: linear-gradient(to right, #001C2C, #002043);
+      -webkit-background-clip: text; /* for Safari */
+      background-clip: text;
+      color: transparent; /* Make the text transparent so that the gradient shows through */ 
+            }
+            .card:hover{
+                transform: scale(1.1);    
+            }
+            .card{
+            background-color: transparent;
+            border: none;
+           
+            }
+            h1{
+                text-align: center;
+                color: #F2D97C;
+                margin-top: 3vh;
+            }
+            p{
+                text-align: center;
+                color: #F2D97C; 
+             
+            }
+       
+       footer{
+        border-top: 1px inset #F2D97C;
+        height: 2vh;
+    } 
+    .buttons{
+        height: 80%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ТАЛАНТИТЕ НА ПГМЕЕ</h1>
+    </header>
+    <main>
+        <section>  
+            <a class="card " href="profesionalnapodgotovka.html">
+                <img class="buttons" src="images/buttons2.png">
+                <h3 class="card-img-overlay shadow-lg" style="padding-top:1.4vh ;" >Професионална Подготовка</h3>
+            </a>
+            <a class="card " href="nauki.html">
+                <img class="buttons" src="images/buttons2.png">
+                <h3 class="card-img-overlay shadow-lg" style="padding-top:3.5vh ;"  > Науки </h3>
+            </a>
+            <a class="card " href="languages.html">
+                <img class="buttons" src="images/buttons2.png">
+                <h3 class="card-img-overlay shadow-lg"  style="padding-top:3.5vh ;" >Езикова подготовка</h3>
+            </a>
+           
+        </section>
+        
+        <img class="shadow-lg" src="images/moneta2.png" style="width: 33%;  margin:20vh auto ; ">
+        
+        <section>
+            <a class="card " href="math.html">
+                <img class="buttons" src="images/buttons2.png">
+                <h3 class="card-img-overlay shadow-lg" style="padding-top:1vh ;"  >Математика и ИТ</h3>
+            </a>
+            <a class="card " href="literatura.html">
+                <img class="buttons" src="images/buttons2.png">
+                <h3 class="card-img-overlay shadow-lg" style="padding-top:3.5vh ;"  >Литература</h3>
+            </a>
+            <a class="card " href="sport.html">
+                <img class="buttons" src="images/buttons2.png" >
+                <h3 class="card-img-overlay shadow-lg " style="padding-top:3.5vh ;" >Спорт</h3>
+            </a>
+           
+        </section>
+    </main>
+   <footer>
+    <p>Професионална гимназия по механоелектротехника и електроника @PGMEE2024</p>
+   </footer>
+  
+</body>
+</html>
